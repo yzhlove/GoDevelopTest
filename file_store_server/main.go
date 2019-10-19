@@ -1,7 +1,7 @@
 package main
 
 import (
-	"WorkSpace/DevelopTest/file_store_server/handle"
+	"WorkSpace/GoDevelopTest/file_store_server/handle"
 	"fmt"
 	"net/http"
 )

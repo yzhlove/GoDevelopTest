@@ -1,8 +1,8 @@
 package handle
 
 import (
-	mydb "WorkSpace/DevelopTest/file_store_server/db"
-	"WorkSpace/DevelopTest/file_store_server/util"
+	mydb "WorkSpace/GoDevelopTest/file_store_server/db"
+	"WorkSpace/GoDevelopTest/file_store_server/util"
 	"fmt"
 	"net/http"
 	"strconv"

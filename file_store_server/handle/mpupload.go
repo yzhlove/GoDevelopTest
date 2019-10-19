@@ -1,9 +1,10 @@
 package handle
 
 import (
-	myredis "WorkSpace/DevelopTest/file_store_server/cache/redis"
-	mydb "WorkSpace/DevelopTest/file_store_server/db"
-	"WorkSpace/DevelopTest/file_store_server/util"
+	myredis "WorkSpace/GoDevelopTest/file_store_server/cache/redis"
+	mydb "WorkSpace/GoDevelopTest/file_store_server/db"
+	"WorkSpace/GoDevelopTest/file_store_server/util"
+
 	"fmt"
 	"github.com/garyburd/redigo/redis"
 	"io"

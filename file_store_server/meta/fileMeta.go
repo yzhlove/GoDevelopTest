@@ -1,7 +1,7 @@
 package meta
 
 import (
-	mydb "WorkSpace/DevelopTest/file_store_server/db"
+	mydb "WorkSpace/GoDevelopTest/file_store_server/db"
 	"fmt"
 )
 
