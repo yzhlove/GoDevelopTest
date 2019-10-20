@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package proto;
+
+service UserAccount {
+    rpc UserLogin (UserReq) returns (UserResp) {
+    }
+}
+
+message UserReq {
+    string Name = 1; //用户名
+    string Passwd = 2; //密码
+}
+
+message UserResp {
+    uint32 ErrorCode = 1;
+    string Message = 2;
+    UserInfo Info = 3;
+}
+
+message UserInfo {
+    uint64 ID = 1;
+    string Name = 2;
+    string Token = 3;
+    uint32 Age = 4;
+}
