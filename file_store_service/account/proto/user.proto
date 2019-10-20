@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto;
+
+service UserService {
+    rpc SignUp (SignUpReq) returns (SignUpResp) {
+    }
+}
+
+message SignUpReq {
+    string UserName = 1;
+    string PassWord = 2;
+}
+
+message SignUpResp {
+    int32 Code = 1;
+    string message = 2;
+}
