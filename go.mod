@@ -3,6 +3,7 @@ module WorkSpace/GoDevelopTest
 go 1.12
 
 require (
+	github.com/HouzuoGuo/tiedot v0.0.0-20191112163212-3246d2a872c5 // indirect
 	github.com/garyburd/redigo v1.6.0
 	github.com/go-redis/redis v6.15.6+incompatible
 	github.com/go-sql-driver/mysql v1.4.1
